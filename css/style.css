@@ -1,0 +1,142 @@
+:root {
+    --lavender-pink: #FFC4EB;
+    --pale-purple: #FFE4FA;
+    --misty-rose: #F1DEDC;
+    --pearl: #E1DABD;
+    --olivine: #ABC798;
+    --primary-font: "Chewy", system-ui;
+    --secondary-font: "Quicksand", sans-serif;
+    --text-color: #2B2B2B;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: var(--text-color);
+}
+
+/* HEADER */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--lavender-pink);
+    color: var(--text-color);
+    padding: 20px;
+}
+
+.logo img {
+    width: 100px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--text-color);
+    font-family: var(--secondary-font);
+    font-weight: 600;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+.hamburger,
+.close {
+    display: none;
+}
+
+/* MAIN */
+main {
+    padding: 40px 20px;
+}
+
+/* HERO SECTION */
+.hero {
+    background-color: var(--misty-rose);
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.hero img {
+    margin: 20px;
+    height: 400px;
+    width: auto;
+    border-radius: 10px;
+}
+
+/* FEATURED CUPCAKE */
+.featured {
+    background-color: var(--misty-rose);
+    margin-top: 50px;
+    padding: 20px;
+    text-align: center;
+}
+
+.featured-cupcake img {
+    width: 250px;
+    border-radius: 10px;
+}
+
+.featured-cupcake h3 {
+    font-family: var(--secondary-font);
+    margin-top: 10px;
+}
+
+.featured-cupcake a {
+    font-family: var(--secondary-font);
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.featured-cupcake a:hover {
+    text-decoration: underline;
+}
+
+
+
+/* FOOTER */
+footer {
+    background-color: var(--lavender-pink);
+    display: flex;
+    align-items: center;
+    color: var(--text-color);
+    padding: 20px;
+    margin-top: 10px;
+    font-size: 14px;
+    gap: 16px;
+}
+
+footer img {
+    width: 100px;
+}
+
+
+p {
+    font-family: var(--secondary-font);
+}
+
+
+.hero-text h1,
+.featured h2,
+section h2,
+section h1 {
+    font-family: var(--primary-font);
+    color: var(--text-color);
+}
+
+.featured-cupcake,
+.cupcake-card {
+    background-color: var(--misty-rose);
+}
