@@ -174,7 +174,31 @@ main {
     
 }
 
+/* ABOUT PAGE */
+.about,
+.contact {
+    margin-bottom: 40px;
+}
 
+.about h2,
+.contact h2 {
+    margin-bottom: 20px;
+}
+
+.contact-info {
+    display: flex;
+    gap: 20px;
+}
+
+.contact-info a {
+    text-decoration: none;
+    font-family: var(--secondary-font);
+    color: var(--text-color);
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
 
 /* FOOTER */
 footer {
@@ -194,7 +218,6 @@ footer img {
 
 
 /* TYPOGRAPHY */
-
 h1 {
     font-family: var(--primary-font);
 }
@@ -209,18 +232,4 @@ h3 {
 
 p {
     font-family: var(--secondary-font);
-}
-
-
-.hero-text h1,
-.featured h2,
-section h2,
-section h1 {
-    font-family: var(--primary-font);
-    color: var(--text-color);
-}
-
-.featured-cupcake,
-.cupcake-card {
-    background-color: var(--misty-rose);
 }
