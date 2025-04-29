@@ -144,6 +144,37 @@ main {
     text-decoration: underline;
 }
 
+/* CUPCAKE DETAILS PAGE */
+.cupcake-details {
+    background-color: var(--misty-rose);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-block: 30px;
+    text-align: center;
+    padding: 20px;
+}
+
+.cupcake-info {
+    margin-top: 40px;
+}
+
+.cupcake-price {
+    font-weight: bold;
+    font-size: 20px;
+    margin-block: 20px;
+}
+
+.cupcake-description {
+    margin-block: 20px;
+}
+
+.cupcake-detail-img {
+    height: 100%;
+    width: 250px;
+    
+}
+
+
 
 /* FOOTER */
 footer {
